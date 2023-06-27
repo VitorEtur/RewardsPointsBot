@@ -23,7 +23,7 @@ if confirm():
     py.write('msedge')
     time.sleep(0.3)
     py.press('enter')
-    time.sleep(1)
+    time.sleep(2)
     py.typewrite('https://rewards.bing.com/redeem/pointsbreakdown')
     time.sleep(0.5)
     py.press('enter')
