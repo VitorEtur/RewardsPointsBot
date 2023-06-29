@@ -24,6 +24,8 @@ if confirm():
     time.sleep(0.3)
     py.press('enter')
     time.sleep(2)
+    py.press('f4')
+    time.sleep(1)
     py.typewrite('https://rewards.bing.com/redeem/pointsbreakdown')
     time.sleep(0.5)
     py.press('enter')
