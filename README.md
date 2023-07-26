@@ -12,6 +12,7 @@ Basta rodar o executável que se encontra na pasta "build"
 Para versão Mobile:
 Abrir o navegador Edge > Apertar F12 > CTRL + SHIFT + M (Abrir emulação de dispostivo) > marcar como Iphone 12 Pro
 
+<img src="https://i.imgur.com/DD7pgEQ.png" widht= 100%>
 <https://i.imgur.com/DD7pgEQ.png>
 
 *version 4.0*
