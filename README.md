@@ -13,6 +13,6 @@ Para versão Mobile:
 Abrir o navegador Edge > Apertar F12 > CTRL + SHIFT + M (Abrir emulação de dispostivo) > marcar como Iphone 12 Pro
 
 <img src="https://i.imgur.com/DD7pgEQ.png">
-<https://i.imgur.com/DD7pgEQ.png>
+
 
 *version 4.0*
