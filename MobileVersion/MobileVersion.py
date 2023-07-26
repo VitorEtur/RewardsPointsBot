@@ -9,7 +9,7 @@ py = pyautogui
 numero_aleatorio = random.randint(1, 9999999)
 
 def confirm():
-    resposta = py.confirm(text='Start Bot?', buttons=['Yes', 'No'])
+    resposta = py.confirm(text='-Start Bot?', buttons=['Yes', 'No'])
     if resposta == 'Yes':
         return True
     else:
