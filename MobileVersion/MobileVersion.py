@@ -24,6 +24,8 @@ if confirm():
     time.sleep(0.3)
     py.press('enter')
     time.sleep(1)
+    py.press('f4')
+    time.sleep(1)
     py.typewrite('https://rewards.bing.com/redeem/pointsbreakdown')
     time.sleep(0.5)
     py.press('enter')
@@ -36,8 +38,8 @@ if confirm():
     # py.hotkey('ctrl','w')
 
     def x():
-        while True:
-            numero_aleatorio = random.randint(1, 9999999)
+        for _ in range(20):
+            numero_aleatorio = random.randint(1, 99999999)
             py.press('f4')
             pyautogui.typewrite(str(numero_aleatorio))
             py.press('enter')

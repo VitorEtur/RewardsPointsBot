@@ -35,7 +35,7 @@ if confirm():
     py.hotkey('ctrl','w')
 
     def x():
-        while True:
+        for _ in range(30):
             numero_aleatorio = random.randint(1, 9999999)
             py.hotkey('ctrl','t')
             pyautogui.typewrite(str(numero_aleatorio))
