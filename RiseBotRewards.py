@@ -9,7 +9,7 @@ py = pyautogui
 numero_aleatorio = random.randint(1, 9999999)
 
 def confirm():
-    resposta = py.confirm(text='Start Bot?', buttons=['Yes', 'No'])
+    resposta = py.confirm(text='Start Bot --Version 4.5?', buttons=['Yes', 'No'])
     if resposta == 'Yes':
         return True
     else:
@@ -35,7 +35,7 @@ if confirm():
     py.hotkey('ctrl','w')
 
     def x():
-        for _ in range(30):
+        for _ in range(37):
             numero_aleatorio = random.randint(1, 9999999)
             py.hotkey('ctrl','t')
             pyautogui.typewrite(str(numero_aleatorio))
